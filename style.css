@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  font-family: cursive;
+  color: greenyellow;
+}
+.navbar .nav-link:hover {
+  color: rgb(117, 240, 199);
+}
+.search-bar {
+  background-color: greenyellow;
+}
+.search-bar #btn_search {
+  color: rgb(249, 226, 226);
+  height: 40px;
+  padding: 0px 8px;
+  outline: none;
+  border: none;
+}
+.search-bar input {
+  height: 2.2rem;
+  padding-left: 8px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: inherit;
+}
+
+.main {
+  background: url(./images/hero_sec.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: 80% 80%;
+  width: 100%;
+}
+
+.main h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: white;
+  margin-top: 25%;
+}
+.btn1 {
+  height: 50px;
+  width: 35%;
+  border: none;
+  outline: none;
+  background-color: rgb(11, 10, 10);
+  font-weight: 700;
+  border-radius: 60px;
+  font-size: 1.5rem;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.btn1:hover {
+  background-color: gray;
+  transition: 0.4s;
+}
+.red-size {
+  max-width: 150px;
+}
+.shine {
+  font-weight: 700;
+  color: rgb(125, 203, 7);
+  text-shadow: 2px 2px 2px rgb(18, 17, 17);
+}
+
+.trending-sec {
+  margin-top: 90px;
+  margin-bottom: 90px;
+  background-color: greenyellow;
+  box-sizing: border-box;
+}
+.card:hover {
+  box-shadow: 10px 10px 8px -3px rgba(72, 74, 70, 0.75);
+  -webkit-box-shadow: 10px 10px 5px -3px rgba(76, 80, 72, 0.75);
+  -moz-box-shadow: 10px 10px 5px -3px rgba(90, 92, 88, 0.75);
+  transition: 0.5s;
+}
+
+.organic-heading {
+  margin-top: 130px;
+  margin-bottom: 90px;
+}
+
+.main-2 {
+  background: url(./images/grapes.jpg) no-repeat;
+  object-fit: cover;
+  height: 70vh;
+  background-size: 130% 190%;
+  width: 100%;
+}
+
+.main-2 h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: rgb(22, 62, 2);
+  text-align: left;
+}
+.main-2 h3 {
+  color: red;
+  text-align: left;
+}

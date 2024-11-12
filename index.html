@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>GreenLife Organics</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body fixed-top" data-bs-theme="dark">
+    <div class="container">
+      <a class="navbar-brand fs-1 fs-md-3 fs-lg-4" href="#">Organic</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+        aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-4">
+          <li class="nav-item ms-5 me-2">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item ms-2 me-2">
+            <a class="nav-link active" href="#trend">Trending</a>
+          </li>
+          <li class="nav-item ms-2 me-2">
+            <a class="nav-link active" href="#organic">Organic</a>
+          </li>
+          <li class="nav-item ms-2 me-2">
+            <a class="nav-link active" href="#shop">Store</a>
+          </li>
+          <li class="nav-item ms-2 me-2">
+            <a class="nav-link active" href="#contact">Contact Us</a>
+          </li>
+        </ul>
+        <form class="search-bar" role="search">
+          <input list="suggestions" class="me-2" type="search" name="query" placeholder="Search organic products"
+            aria-label="Search">
+          <datalist id="suggestions">
+            <option value="Organic Vegetables">
+            <option value="Organic Fruits">
+            <option value="Organic Chia seeds">
+            <option value="Organic Milk">
+            <option value="Organic Protein Powder">
+            <option value="Organic Herbal Tea">
+          </datalist>
+          <button id="btn_search" type="submit" title="Submit Search">Done</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <section class="main">
+    <div class="container py-5">
+      <div class="row py-5">
+        <div class="col-lg-7 pt-5 text-center">
+          <h1 class="pt-5">Nature looks after us, inviting us to cherish and protect its gifts ! </h1>
+          <button class="btn1 mt-5">More Tips</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="types">
+    <div class="container py-5">
+      <div class="row pt-5">
+        <div class="col-lg-10 m-auto">
+          <div class="row text-center">
+
+            <div class="col-lg-4 mb-5">
+              <img src="./images/raspberries.png" class="img-fluid red-size" alt="">
+              <h2 class="mt-3 shine">Natural</h2>
+            </div>
+            <div class="col-lg-4 mb-5">
+              <img src="./images/nuts.png" class="img-fluid red-size" alt="">
+              <h2 class="mt-3 shine">Organic</h2>
+            </div>
+
+            <div class="col-lg-4 mb-3">
+              <img src="./images/broccoli.png" class="img-fluid red-size" alt="">
+              <h2 class="mt-3 shine">Healthy</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="trending-sec" id="trend">
+    <div class="container">
+      <div class="row m-auto text-center">
+        <div class="col">
+          <h1 style="font-weight: 900;">What's trending?</h1>
+        </div>
+      </div>
+      <div class="row m-auto text-center">
+        <div class="col">
+          <h4 style="color: rgb(232, 31, 9);font-weight: 700;">Organic and Healthy food.... </h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="items mb-5" id="shop">
+    <div class="container py-5">
+      <div class="row pt-5">
+        <div class="col-lg-10 m-auto">
+          <div class="row text-center">
+            <div class="col-lg-3 mb-4">
+              <div class="card" style="width: 100%;"> <!-- Set width to 100% -->
+                <img src="./images/chia.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Organic Chia seeds</h5>
+                  <p style="font-size: 1.2rem;" class="card-text">Rs.190</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 mb-4">
+              <div class="card" style="width: 100%;">
+                <img src="./images/milk.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Organic Milk</h5>
+                  <p style="font-size: 1.2rem;" class="card-text">Rs.80</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 mb-4">
+              <div class="card" style="width: 100%;">
+                <img src="./images/protein.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Organic Protein Powder</h5>
+                  <p style="font-size: 1.2rem;" class="card-text">Rs.600</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 mb-4">
+              <div class="card" style="width: 100%;">
+                <img src="./images/herbaltea.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Organic Herbal Tea</h5>
+                  <p style="font-size: 1.2rem;" class="card-text">Rs.150</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="container mb-5">
+    <div class="row text-center">
+      <div class="col-lg-7 m-auto">
+        <button class="btn1 px-3">Click for More</button>
+      </div>
+    </div>
+  </div>
+
+  <section class="organic-heading" id="organic">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col">
+          <h1 style="font-weight: 900;">Welcome to Our Organic Food Society!!</h1>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col">
+          <h4>At <i>ORGANIC</i>, we believe in the power of nature to provide the most nourishingfood.
+            We bring you the finest organic products that are good for you and the planet.
+          </h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="organic-products mb-5">
+    <div class="container py-5">
+      <div class="row pt-5">
+        <div class="col-lg-12 m-auto">
+          <div class="row text-center">
+            <div class="col-lg-4 mb-4">
+              <div class="card" style="width: 100%; height: 100%;border: 3px solid rgb(17, 244, 85);">
+                <!-- Set width to 100% -->
+                <img src="./images/fruit.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title" style="color: rgb(119, 195, 6);">Best Quality Organic Products</h5>
+                  <p style="font-size: 1.2rem;" class="card-text">
+                    Your Journey to Health Starts Here<br>
+                    At Organic, we believe in the power of nature to provide the most nourishing and delicious food. We
+                    bring you the finest organic products that are good for you and the planet.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+              <div class="card" style="width: 100%;height:100%;border: 3px solid rgb(17, 244, 85);">
+                <img src="./images/plant.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title" style="color: rgb(119, 195, 6);">Ethically Sourced & Sustainable</h5>
+                  <p style="font-size: 1.2rem; font-weight:400;" class="card-text">Doing Good for You and the
+                    Environment<br>
+                    Our commitment goes beyond just food. We ensure that all our products are ethically sourced,
+                    supporting fair trade and sustainable farming practices. We are dedicated to reducing our carbon
+                    footprint and promoting a healthier planet.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+              <div class="card" style="width: 100%;height:100%;border: 3px solid rgb(17, 244, 85);">
+                <img src="./images/veg.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title" style="color: rgb(119, 195, 6) ;">Wholesome Organic Meals</h5>
+                  <p style="font-size: 1.2rem;" class="card-text">Fuel Your Body with Nutritious, Organic Food<br>We
+                    offer a variety of organic meal kits and prepared foods that are both delicious and nutritious. From
+                    vibrant salads to wholesome bowls, every meal is crafted to nourish your body and mind. Eating
+                    healthy has never been so easy!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="main-2">
+    <div class="container py-5">
+      <div class="row py-5">
+        <div class="col-lg-7 pt-5">
+          <h1 class="pt-5">Unlock Your Potential with Good Nutrition ! </h1>
+          <h3>Organic Food</h3>
+          <button class="btn1 mt-5">More From Us</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-sec" id="contact">
+    <div class="container my-5">
+      <div class="row m-auto text-center">
+        <div class="col">
+          <h1 style="font-weight: 900;">Contact Us</h1>
+        </div>
+      </div>
+      <div class="row m-auto text-center">
+        <div class="col">
+          <h3 style="color: rgb(232, 31, 9);font-weight: 700;">Let's Be in Touch..!</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-info">
+    <div class="container py-5">
+      <div class="row pt-5" style="background-color: bisque;">
+        <div class="col-lg-10 m-auto">
+          <div class="row">
+            <div class="col-lg-6 mb-4">
+              <h2 style="font-weight: 700;">Location:</h2>
+              <h4 style="color: green;">Sarojini bazaar,New Delhi,India</h4>
+              <h2 style="font-weight: 700;">Phone:</h2>
+              <h4 style="color: green;">9999965423</h4>
+              <h2 style="font-weight: 700;">Email:</h2>
+              <h4 style="color: green;">Organicfood@gmail.com</h4>
+            </div>
+            <div class="col-lg-6 mb-4">
+              <form action="">
+                <h3><input type="text" placeholder="Enter you Name" style="width: 100%; padding: 5px;"></h3>
+                <br>
+                <h3><input type="email" placeholder="Enter you Email" style="width: 100%; padding: 5px;"></h3>
+                <br>
+                <textarea placeholder="Enter Message" style="width: 100%;padding: 5px;font-size: 1.5rem;"></textarea>
+                <br>
+                <input type="submit" class="btn1" value="Submit" style="margin-top: 5px;">
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer-sec mt-5" style="background-color: black;color: white;">
+    <div class="container">
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h3>Customer Care</h3>
+            <ul class="nav flex-column" style="color: white;">
+              <li class="nav-item mb-2">Regular</li>
+              <li class="nav-item mb-2">On Time</li>
+              <li class="nav-item mb-2">Always Care</li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h3>FAQ's</h3>
+            <ul class="nav flex-column" style="color: white;">
+              <li class="nav-item mb-2">No E-charges</li>
+              <li class="nav-item mb-2">Shopping & Delivery</li>
+              <li class="nav-item mb-2">Always Care</li>
+
+            </ul>
+          </div>
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h3>Join Our Organic Society</h3>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="email" class="form-control" placeholder="Email address"
+                  fdprocessedid="p49vwa">
+                <button class="btn btn-primary" type="button" fdprocessedid="f6oif">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p>© 2024 Company, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#twitter"></use>
+                </svg></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#instagram"></use>
+                </svg></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#facebook"></use>
+                </svg></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
